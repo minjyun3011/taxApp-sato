@@ -37,6 +37,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
+    
+    
     @IBAction func totalButton(_ sender: UIButton) {
         performSegue(withIdentifier: "showTotal", sender: nil)
     }
