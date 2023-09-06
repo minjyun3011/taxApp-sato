@@ -13,6 +13,7 @@
 		64B44DB82AA82F18006FA9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B44DB62AA82F18006FA9BB /* Main.storyboard */; };
 		64B44DBA2AA82F19006FA9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B44DB92AA82F19006FA9BB /* Assets.xcassets */; };
 		64B44DBD2AA82F19006FA9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B44DBB2AA82F19006FA9BB /* LaunchScreen.storyboard */; };
+		64B44DC52AA83C6E006FA9BB /* TotalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B44DC42AA83C6D006FA9BB /* TotalTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		64B44DB92AA82F19006FA9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64B44DBC2AA82F19006FA9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64B44DBE2AA82F19006FA9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B44DC42AA83C6D006FA9BB /* TotalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				64B44DB22AA82F18006FA9BB /* SceneDelegate.swift */,
 				64B44DB42AA82F18006FA9BB /* ViewController.swift */,
 				64B44DB62AA82F18006FA9BB /* Main.storyboard */,
+				64B44DC42AA83C6D006FA9BB /* TotalTableViewController.swift */,
 				64B44DB92AA82F19006FA9BB /* Assets.xcassets */,
 				64B44DBB2AA82F19006FA9BB /* LaunchScreen.storyboard */,
 				64B44DBE2AA82F19006FA9BB /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B44DC52AA83C6E006FA9BB /* TotalTableViewController.swift in Sources */,
 				64B44DB52AA82F18006FA9BB /* ViewController.swift in Sources */,
 				64B44DB12AA82F18006FA9BB /* AppDelegate.swift in Sources */,
 				64B44DB32AA82F18006FA9BB /* SceneDelegate.swift in Sources */,
