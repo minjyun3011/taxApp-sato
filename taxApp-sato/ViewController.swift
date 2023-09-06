@@ -37,8 +37,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
-    @IBAction func totalButton(_ sender: UIBarButtonItem) {
-        performSegue(withIdentifier: "showLabel", sender: nil)
+    @IBAction func totalButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "showTotal", sender: nil)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showTotal" {
